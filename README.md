@@ -22,8 +22,7 @@ We decided to create a complete professional prompt to ChatGPT, since its the be
 
 ## Prompt
 
-Full prompt (~2000 words) avaiable on the following document: [Prompt_AI_Agent]([https://your-onedrive-link-here](https://pruebacorreoescuelaingeduco-my.sharepoint.com/:w:/g/personal/angela_gomez-v_mail_escuelaing_edu_co/IQAfpOuVpbmxQJVVstT8-8tMAQtzuVM1ryPZwUhaBFZ0e9U?e=W4O7TO))
-
+Full prompt (~2000 words) avaiable on the following document: [Prompt_AI_Agent](https://pruebacorreoescuelaingeduco-my.sharepoint.com/:w:/g/personal/angela_gomez-v_mail_escuelaing_edu_co/IQAfpOuVpbmxQJVVstT8-8tMAQtzuVM1ryPZwUhaBFZ0e9U?e=ahc6Pr)
 # Exercises
 Although the instrructions asks us for an AI agent that is capable of solving from 5 to 10 problems from the same family topic, we will show 3 of them - where all of them are new to the AI agent. However, if you want to check for more problems related to algorithms and data structures, the prompt for the AI agent should work fine :)
 
