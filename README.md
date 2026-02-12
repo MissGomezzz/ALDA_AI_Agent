@@ -24,22 +24,19 @@ We decided to create a complete professional prompt to ChatGPT, since its the be
 
 Full prompt (~1430 words) avaiable on the following document: [Prompt_AI_Agent](https://pruebacorreoescuelaingeduco-my.sharepoint.com/:w:/g/personal/angela_gomez-v_mail_escuelaing_edu_co/IQAfpOuVpbmxQJVVstT8-8tMAQtzuVM1ryPZwUhaBFZ0e9U?e=ahc6Pr)
 # Exercises
-Although the instrructions asks us for an AI agent that is capable of solving from 5 to 10 problems from the same family topic, we will show 3 of them - where all of them are new to the AI agent. However, if you want to check for more problems related to algorithms and data structures, the prompt for the AI agent should work fine :)
+Although the instrructions asks us for an AI agent that is capable of solving from 5 to 10 problems from the same family topic, we will show 3 of them - where all of them are new to the AI agent. he solutions are available in the folders. However, if you want to check for more problems related to algorithms and data structures, the prompt for the AI agent should work fine :)
 
-## Exercise 1
-Problem: 
-Topic: 
-Solving method the AI should choose: 
+## Problem 1
+Problem: Queue at the School
+Topics: Constructive algorithm, graph matching, shortest paths. 
 
-## Exercise 2
-Problem:
-Topic:
-Solving method the AI should choose: 
+## Problem 2
+Problem: Love Triangle 
+Topics: graphs. 
 
-## Exercise 3
-Problem: 
-Topic:
-Solving method the AI should choose: 
+## Problem 3
+Problem: Sloth
+Topic: dfs and smiliar, dp, trees. 
 
 # Conclusions
 
