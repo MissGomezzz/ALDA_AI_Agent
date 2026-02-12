@@ -27,15 +27,18 @@ Full prompt (~1430 words) avaiable on the following document: [Prompt_AI_Agent](
 Although the instrructions asks us for an AI agent that is capable of solving from 5 to 10 problems from the same family topic, we will show 3 of them - where all of them are new to the AI agent. he solutions are available in the folders. However, if you want to check for more problems related to algorithms and data structures, the prompt for the AI agent should work fine :)
 
 ## Problem 1
-Problem: Queue at the School
+Problem: [Queue at the School](https://codeforces.com/problemset/problem/266/B)
+
 Topics: Constructive algorithm, graph matching, shortest paths. 
 
 ## Problem 2
-Problem: Love Triangle 
+Problem: [Love Triangle](https://codeforces.com/problemset/problem/939/A)
+
 Topics: graphs. 
 
 ## Problem 3
-Problem: Sloth
+Problem: [Sloth](https://codeforces.com/problemset/problem/891/D)
+
 Topic: dfs and smiliar, dp, trees. 
 
 # Conclusions
