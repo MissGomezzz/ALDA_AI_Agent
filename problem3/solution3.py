@@ -3,53 +3,48 @@
 import sys
 sys.setrecursionlimit(10**7)
 
-def count_valid_operations(n: int, edges: list[tuple[int, int]]) -> int:
-    """
-    Counts the number of valid (remove, add) edge operations
-    such that the resulting tree has a perfect matching.
-
-    Time complexity: O(n)
-    Space complexity: O(n)
-    """
+def solve():
+    input = sys.stdin.readline
+    n = int(input().strip())
 
     if n % 2 == 1:
-        return 0  # Perfect matching impossible
+        print(0)
+        return
 
-    # Build adjacency list
     adj = [[] for _ in range(n)]
-    for u, v in edges:  # O(n)
+    for _ in range(n - 1):
+        u, v = map(int, input().split())
+        u -= 1
+        v -= 1
         adj[u].append(v)
         adj[v].append(u)
 
-    subtree_size = [0] * n
-    valid_edges = 0
+    bad_edges = 0  # edges with even subtree size
 
-    def dfs(node: int, parent: int) -> int:
-        nonlocal valid_edges
-
-        size = 1  # count current node
-        for neighbor in adj[node]:  # total O(n)
-            if neighbor == parent:
+    def dfs(node, parent):
+        nonlocal bad_edges
+        size = 1
+        for nei in adj[node]:
+            if nei == parent:
                 continue
-            child_size = dfs(neighbor, node)
+            child_size = dfs(nei, node)
             if child_size % 2 == 0:
-                valid_edges += 1
+                bad_edges += 1
             size += child_size
-
-        subtree_size[node] = size
         return size
 
-    dfs(0, -1)  # O(n)
+    dfs(0, -1)
 
-    return valid_edges * valid_edges
+    good_edges = (n - 1) - bad_edges
+
+    print(2 * good_edges * good_edges)
 
 
 if __name__ == "__main__":
-    input = sys.stdin.readline
-    n = int(input().strip())
-    edges = []
-    for _ in range(n - 1):
-        a, b = map(int, input().split())
-        edges.append((a - 1, b - 1))
+    solve()
 
-    print(count_valid_operations(n, edges))
+
+
+if __name__ == "__main__":
+    solve()
+
