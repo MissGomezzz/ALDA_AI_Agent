@@ -43,7 +43,11 @@ Topic: dfs and smiliar, dp, trees.
 
 # Conclusions
 
-It's possible to conclude that...
+- With the help of the agent oriented toward solving algorithmic problems, it demonstrates a strong capacity to generate a well-structured analysis. It correctly interprets the problem statement, identifies the core issue, and selects the appropriate strategy to generate a coherent solution. This reflects an effective application of language models as tools for computational reasoning, showing that AI can be used as strong support for technical problem-solving in the field of algorithms.
+
+- One of the most relevant aspects of the project is that it is not based on training a proprietary model, but rather on the strategic design of a well-structured prompt. This demonstrates that prompt engineering can be sufficient to transform a general-purpose model into an agent specialized in a specific domain. In this sense, the project not only solves problems but also highlights the importance of instruction design as a key component in the development of functional AI agents.
+
+- The project has a strong academic focus, as it does not limit itself to generating code but also includes explanations of the applied logic and computational complexity of the solutions. This makes it a useful tool for reinforcing learning in data structures and algorithm analysis. However, from a technical perspective, the project could be strengthened by incorporating automated testing, edge-case validation, and a more scalable structure that allows systematic evaluation of multiple problems. Even so, as a functional prototype and demonstration of capabilities, it adequately fulfills its purpose and establishes a solid foundation for future improvements.
 
 # Authors: 
 - Karol Rodriguez
